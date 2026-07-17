@@ -1,0 +1,14 @@
+;; data/culture-tx.edn — DataScript tx-data derived from src/culture/facts.cljc
+;; `culture.facts/catalog` (ADR-2607171400 addendum 2, Wave 1 country-level).
+;; Same shape across every cloud-itonami-iso3166-* sibling. Do not hand-edit;
+;; regenerate from the catalog.
+
+[
+#:culture{:id "mrt.dish.thieboudienne", :name "Thieboudienne", :country "MRT", :kind :dish, :summary "Coastal dish of fish and rice served in a white and red tomato sauce, considered the national dish of Mauritania per the Mauritanian cuisine article (a Senegalese-origin dish also consumed across West Africa).", :url "https://en.wikipedia.org/wiki/Mauritanian_cuisine", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "mrt.dish.mechoui", :name "Méchoui", :country "MRT", :kind :dish, :summary "Whole roasted lamb dish listed among Mauritanian cuisine's main dishes.", :url "https://en.wikipedia.org/wiki/Mauritanian_cuisine", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "mrt.dish.cherchem", :name "Cherchem", :country "MRT", :kind :dish, :summary "Mauritanian lamb couscous dish listed among Mauritanian cuisine's main dishes.", :url "https://en.wikipedia.org/wiki/Mauritanian_cuisine", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "mrt.beverage.zrig", :name "Zrig", :country "MRT", :kind :beverage, :summary "Fermented milk beverage of the west Sahara, a traditional Mauritanian drink of soured milk mixed with sugar and water.", :url "https://en.wikipedia.org/wiki/Zrig", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "mrt.beverage.mint-tea", :name "Mauritanian mint tea", :country "MRT", :kind :beverage, :summary "Traditional tea preparation poured from height to create foam, listed among Mauritanian cuisine's beverages.", :url "https://en.wikipedia.org/wiki/Mauritanian_cuisine", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "mrt.craft.chinguetti-manuscripts", :name "Chinguetti manuscript libraries", :country "MRT", :kind :craft, :summary "The old quarter of Chinguetti, Mauritania holds five manuscript libraries of scientific and Qur'anic texts dating from the later Middle Ages, reflecting the town's historic role as a center of Islamic scholarship in West Africa.", :url "https://en.wikipedia.org/wiki/Chinguetti", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "mrt.heritage.ancient-ksour", :name "Ancient Ksour of Ouadane, Chinguetti, Tichitt and Oualata", :country "MRT", :kind :heritage, :summary "Four ancient caravan cities in Mauritania founded around the 11th-12th centuries as trans-Saharan trade hubs, inscribed on the UNESCO World Heritage List in 1996.", :url "https://en.wikipedia.org/wiki/Ancient_Ksour_of_Ouadane,_Chinguetti,_Tichitt_and_Oualata", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+]
