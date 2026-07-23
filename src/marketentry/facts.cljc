@@ -266,25 +266,7 @@
           :avenant-ceiling-owner-authority "Commission Nationale de Contrôle des Marchés Publics (CNCMP, a priori) / Autorité de Régulation des Marchés Publics (ARMP, a posteriori) -- Article 53 itself is a general statutory ceiling and does not name a single specific enforcing body"
           :avenant-ceiling-legal-basis "Code des Marchés Publics (Loi n° 2021-024), Article 53 ('Avenants') (own text, verbatim): 'Les stipulations relatives au montant d'un marché public ne peuvent être modifiées que par voie d'avenant et dans la limite de vingt pour cent (20%) du montant du marché de base.'"
           :avenant-ceiling-max-pct 0.20
-          :avenant-ceiling-provenance "https://marchespublics.gov.mr/api/files/f5a53278-07ef-4ddf-8ccc-338f4dcf260e_Loi-n-2021-024-abrogeant-et-remplacant-la-loi-n-2010-044-du-22-juillet-2010-portant-code-des-marches-publics.pdf (Article 53)"}
-   "USA" {:name "United States"
-          :owner-authority "U.S. General Services Administration (GSA) / SAM.gov"
-          :legal-basis "Federal Acquisition Regulation (FAR); System for Award Management"
-          :national-spec "SAM.gov entity registration + NAICS self-certification"
-          :provenance "https://sam.gov/"
-          :required-evidence ["EIN record"
-                              "SAM.gov registration record"
-                              "State business registration record"
-                              "Authorized-representative record"]}
-   "DEU" {:name "Germany"
-          :owner-authority "Beschaffungsamt des BMI / e-Vergabe platforms"
-          :legal-basis "Gesetz gegen Wettbewerbsbeschränkungen (GWB) / VgV"
-          :national-spec "e-Vergabe supplier registration under EU procurement directives"
-          :provenance "https://www.evergabe-online.de/"
-          :required-evidence ["Handelsregister extract"
-                              "e-Vergabe registration record"
-                              "USt-IdNr record"
-                              "Authorized-representative record"]}})
+          :avenant-ceiling-provenance "https://marchespublics.gov.mr/api/files/f5a53278-07ef-4ddf-8ccc-338f4dcf260e_Loi-n-2021-024-abrogeant-et-remplacant-la-loi-n-2010-044-du-22-juillet-2010-portant-code-des-marches-publics.pdf (Article 53)"}})
 
 (defn spec-basis
   "The jurisdiction's requirement map, or nil -- nil means NO spec-basis,
