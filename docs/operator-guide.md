@@ -11,7 +11,7 @@ Générale des Impôts (DGI).
 
 Company/business registration: NOT an OHADA RCCM path — Mauritania is
 not an OHADA member state (independently confirmed; see
-`src/marketentry/facts.cljc`). This iteration could not independently
+`src/marketentry/facts.cljk`). This iteration could not independently
 confirm Mauritania's own company-registration mechanism or a Guichet
 Unique — an honestly-disclosed gap, not a claim to build operator
 guidance on until confirmed.

@@ -15,6 +15,6 @@ Republic of Mauritania.
   value exceeds the Code des Marchés Publics' own Article 53 statutory
   20% ceiling of the base marché amount.
 - Business/company-registration guidance is an honestly-disclosed gap
-  (see `src/marketentry/facts.cljc`) — this service does NOT claim an
+  (see `src/marketentry/facts.cljk`) — this service does NOT claim an
   OHADA RCCM registration path, because Mauritania is not an OHADA
   member state.

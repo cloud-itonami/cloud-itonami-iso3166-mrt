@@ -11,7 +11,7 @@
 - **Mauritania is NOT an OHADA member state** (independently confirmed
   this iteration, overturning the working assumption that it shares
   CAF/COG/GIN's OHADA-derived company-law regime -- see
-  `src/marketentry/facts.cljc`'s namespace docstring). No RCCM/AUSCGIE
+  `src/marketentry/facts.cljk`'s namespace docstring). No RCCM/AUSCGIE
   citation is asserted here; business/company-registration and
   investment-code citations are an honestly-disclosed gap this
   iteration could not independently confirm.
@@ -46,7 +46,7 @@ as `cloud-itonami-iso3166-caf`/`-cog`/`-gin`:
   modification value, a check domain genuinely different from every
   other iso3166 sibling's flagship (see the namespace docstrings for
   the full research trail and honestly-narrowed scope).
-- `src/statute/facts.cljc` -- general-law catalog: deliberately smaller
+- `src/statute/facts.cljk` -- general-law catalog: deliberately smaller
   than the CAF/COG/GIN siblings' own (no AUSCGIE entry, since
   Mauritania is not OHADA) -- just the Code du Travail (Loi n° 2004-017,
   confirmed via the Ministère de la Fonction Publique et du Travail's
@@ -75,7 +75,7 @@ Alongside the market-entry / statute catalogs, this repo carries a
 `com-junkawasaki/root`) — national dishes, protected products, beverages,
 crafts, festivals and heritage sites for Mauritania:
 
-- `src/culture/facts.cljc` — the catalog, source of truth (keyed by
+- `src/culture/facts.cljk` — the catalog, source of truth (keyed by
   uppercase ISO3, mirroring `statute.facts`).
 - `schema/culture.edn` — DataScript schema.
 - `data/culture-tx.edn` — derived DataScript tx-data (regenerated from
